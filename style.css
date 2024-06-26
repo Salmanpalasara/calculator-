@@ -1,0 +1,45 @@
+body{
+    background-color: azure;
+    display: flex;
+    justify-content: center;
+}
+
+.container{
+    margin-top: 20px;
+    width: 400px;
+    height: fit-content;
+    background-color: black;
+    border-radius: 10px;
+}
+ .screen{
+    display: flex;
+    flex-wrap: wrap;
+}
+button{
+    width: 20%;
+    font-size: 40px;
+    margin: 10px;
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+    background-color: black;
+    color: aqua;
+    box-shadow: -8px -8px 35px rgba(255, 255, 255, 0.1);
+}
+.textbox{
+    background-color: black;
+    color: aqua;
+    height: 50px;
+    width: 99%;
+    font-size: 40px;
+    border: none;
+    margin-top: 50px;
+    padding-bottom: 15px;
+} 
+.second{
+    width: 100%;
+}
+
+.first{
+    color: bisque; 
+}
